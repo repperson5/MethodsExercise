@@ -2,6 +2,7 @@
 {
     public class Program
     {
+        //exercise 1 - complete
         public static string MyDetails()
         {
             Console.WriteLine("What is your name?");
@@ -32,6 +33,35 @@
             string story = MyDetails();
 
             Console.WriteLine(story);
+
+            Console.WriteLine(Add(4, 8));
+
+            Console.WriteLine(Subtraction(4, 8));
+
+            Console.WriteLine(Multiply(4, 8));
+
+            Console.WriteLine(Division(4, 8));
+        }
+
+        // exercise 2 - complete
+        public static int Add(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+
+        public static int Subtraction(int num1, int num2)
+        {
+            return num1 - num2;
+        }
+
+        public static int Multiply(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+
+        public static int Division(int num1, int num2)
+        {
+            return num1 / num2;
         }
     }
 }
